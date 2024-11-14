@@ -5,6 +5,9 @@ import ma.formations.ioc.service.model.Article;
 import java.util.List;
 
 public interface IService {
+    //how
+
+
     List<Article> getAll();
 
     void save(Article article);
